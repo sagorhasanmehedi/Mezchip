@@ -1,0 +1,77 @@
+.furnitureCart {
+  box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.09);
+  padding: 40px 55px 34px 30px;
+  font-size: 17px;
+  border-radius: 6px;
+}
+.fullCart {
+  display: flex;
+  margin-bottom: 40px;
+}
+.furnitureImage {
+  width: 155px;
+  height: 133px;
+  margin-right: 30px;
+}
+.furnitureInfo {
+  display: flex;
+  width: 100%;
+}
+.furnitureName {
+  margin-bottom: 5px;
+}
+.furniturePrice {
+  color: #adadad;
+  margin-bottom: 0;
+}
+.furnitureform {
+  margin-top: 33px;
+  border: 1px solid lightgray;
+  width: 85px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 25px;
+  padding: 0 11px;
+}
+.furnitureButton {
+  border: none;
+  background: none;
+  padding: 0;
+}
+.furnitureInput {
+  border: none;
+  width: 15px;
+  outline: none;
+  padding: 0;
+}
+.furnitureDiscription {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.discriptionName {
+  color: #adadad;
+  margin-bottom: 7px;
+}
+.discriptionRefund {
+  color: #88d6d2;
+  margin-top: 0;
+  font-size: 13px;
+}
+.needHelpPart {
+  display: flex;
+  justify-content: space-between;
+}
+.continueButton {
+  border: 1px solid #ed3f7a;
+  color: #ed3f7a;
+  background: none;
+  padding: 12px 55px;
+  border-radius: 5px;
+  margin-top: 28px;
+}
+.needHelpButton {
+  border: none;
+  background: none;
+  font-size: 20px;
+}

@@ -1,0 +1,66 @@
+.cartBox {
+  width: 100%;
+  box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.09);
+  padding: 30px 50px;
+  border-radius: 6px;
+  font-size: 17px;
+}
+.cardText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cartButton {
+  border: none;
+  padding: 13px 0;
+  margin-bottom: 40px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #f1b886;
+  font-size: 21px;
+}
+.paymentCost {
+  text-align: right;
+}
+.cartIcon {
+  color: #ea1d63 !important;
+}
+.paymentName {
+  color: #adadad;
+}
+.cardTotal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cartDivider {
+  color: #dddddd;
+  font-size: 17px;
+}
+.placeOrder {
+  width: 100%;
+  background-color: #ea1d63;
+  color: white;
+  border: none;
+  padding: 13px 0;
+  margin-top: 25px;
+  font-weight: 200 !important;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.placeOrder:hover {
+  background-color: #910a37;
+}
+.cuponDicsount {
+  color: #f37860;
+}
+.deliveryCharge {
+  color: #4dbf4c;
+}
+.paymentName p {
+  margin: 12px;
+}
+.paymentCost p {
+  margin: 12px;
+}

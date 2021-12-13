@@ -1,0 +1,37 @@
+.routeOption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 70px 0;
+}
+.routeOption p {
+  font-size: 24px !important;
+  text-decoration: none;
+  color: #adadad !important;
+}
+.hoverUnderline:hover {
+  color: #ef4423 !important;
+}
+
+.hoverUnderline {
+  display: inline-block;
+  position: relative;
+}
+
+.hoverUnderline:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ea1d63;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hoverUnderline:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}

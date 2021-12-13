@@ -1,0 +1,35 @@
+.navbarContainer {
+  /* box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16); */
+}
+.fas {
+  padding: 0 20px;
+}
+
+.headerForm {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(225, 215, 215);
+  width: 400px;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 15px;
+}
+.headerInput {
+  flex-grow: 2;
+  border: none;
+  border-radius: 5px;
+}
+.headerInput:focus {
+  outline: none;
+}
+.headerButton {
+  border: 0;
+  background-color: #ea1d63;
+  color: white;
+  border-radius: 5px !important;
+}
+::placeholder {
+  color: rgb(179, 174, 174);
+  font-size: 18px;
+  font-weight: 500;
+}
