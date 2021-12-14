@@ -5,10 +5,10 @@ import "./Services.css";
 const cardData = [
   {
     icon: <i class="fas servicesIcon  fa-tags"></i>,
-    title: " MOST AFFORDABLE",
+    title: "MOST AFFORDABLE",
   },
-  { icon: <i class="fas servicesIcon fa-tools"></i>, title: " FREE SERVICES" },
-  { icon: <i class="fas servicesIcon fa-bolt"></i>, title: " FREE DELIVERY" },
+  { icon: <i class="fas servicesIcon fa-tools"></i>, title: "FREE SERVICES" },
+  { icon: <i class="fas servicesIcon fa-bolt"></i>, title: "FREE DELIVERY" },
 ];
 
 const Services = () => {
@@ -16,10 +16,23 @@ const Services = () => {
     <div className="servicessection">
       <div className="d-flex justify-content-between">
         {cardData.map((DATA) => (
-          <Card className="servicesCard" style={{ border: "none" }}>
+          <Card
+            className={
+              DATA.title === "MOST AFFORDABLE"
+                ? "servicesCard active"
+                : "servicesCard"
+            }
+            style={{ border: "none" }}
+          >
             <Card.Body>
               <Card.Title>{DATA.icon}</Card.Title>
-              <Card.Title className="mb-1 mt-3 servicesIcon servicesHeading">
+              <Card.Title
+                className={
+                  DATA.title === "MOST AFFORDABLE"
+                    ? "mb-1 mt-3 servicesHeading activeHeading "
+                    : "mb-1 mt-3 servicesHeading "
+                }
+              >
                 {DATA.title}
               </Card.Title>
 

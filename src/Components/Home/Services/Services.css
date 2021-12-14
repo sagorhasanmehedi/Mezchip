@@ -9,7 +9,8 @@
   transition: 0.3s;
   text-align: center;
 }
-.servicesCard:hover {
+.servicesCard:hover,
+.servicesCard.active {
   border: 1px solid #ea1d63 !important;
   cursor: pointer;
 }
@@ -21,7 +22,8 @@
   font-size: 22px;
   color: #adadad;
 }
-.servicesHeading:hover {
+.servicesHeading:hover,
+.servicesHeading.activeHeading {
   color: #ea1d63;
 }
 .servicesSubHeading {
