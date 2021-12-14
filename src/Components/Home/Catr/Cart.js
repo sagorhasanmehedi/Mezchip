@@ -30,7 +30,7 @@ const Cart = () => {
           </div>
         </div>
         <span className="cartDivider">
-          ---------------------------------------------------
+          -------------------------------------------------
         </span>
         <div className="cardTotal">
           <p>Total payable</p>

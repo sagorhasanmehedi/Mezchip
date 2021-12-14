@@ -18,7 +18,9 @@ const Popup = (props) => {
       </Modal.Body>
 
       <Modal.Footer className="border-0">
-        <Button onClick={props.onHide}>Close</Button>
+        <Button variant="danger" onClick={props.onHide}>
+          Close
+        </Button>
       </Modal.Footer>
     </Modal>
   );

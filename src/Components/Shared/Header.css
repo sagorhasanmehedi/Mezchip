@@ -1,5 +1,28 @@
 .navbarContainer {
-  /* box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16); */
+  box-shadow: 0 10px 10px -12px rgb(136, 134, 134);
+  overflow: hidden;
+}
+.navHighLight {
+  font-size: 22px;
+}
+.navHighLight::after {
+  content: " ⬤";
+  font-size: 7px;
+  color: #ea1d63;
+  vertical-align: bottom;
+}
+.navRout {
+  font-size: 19px;
+}
+
+.cartRoute::after {
+  content: " ⬤";
+  font-size: 7px;
+  color: #ea1d63;
+  vertical-align: top;
+}
+.cartRoute {
+  color: #ea1d63 !important;
 }
 .fas {
   padding: 0 20px;
@@ -31,5 +54,4 @@
 ::placeholder {
   color: rgb(179, 174, 174);
   font-size: 18px;
-  font-weight: 500;
 }

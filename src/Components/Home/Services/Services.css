@@ -4,7 +4,7 @@
 .servicesCard {
   border: 1px solid #adadad !important;
   border-radius: 9px !important;
-  padding: 23px 51px;
+  padding: 20px 51px;
   width: 402px;
   transition: 0.3s;
   text-align: center;
@@ -19,7 +19,6 @@
   color: #adadad;
 }
 .servicesHeading {
-  font-size: 22px;
   color: #adadad;
 }
 .servicesHeading:hover,

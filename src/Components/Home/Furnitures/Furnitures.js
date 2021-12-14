@@ -1,7 +1,7 @@
 import React from "react";
 import "./Furniture.css";
-import furnitures1 from "../../../images/steven-ungermann-aRT5UCf2MYY-unsplash.jpg";
-import furnitures2 from "../../../images/ralph-ravi-kayden-8_V45fGyWz4-unsplash.jpg";
+import furnitures1 from "../../../images/royalbad.jpg";
+import furnitures2 from "../../../images/royalbed2.jpg";
 
 const Furnitures = () => {
   // handle form submit
@@ -39,7 +39,7 @@ const Furnitures = () => {
           </div>
           <div>
             <p className="discriptionName">Total</p>
-            <p>Rs 1499</p>
+            <p className="totalPrice">Rs 1499</p>
           </div>
         </div>
       </div>
@@ -47,8 +47,8 @@ const Furnitures = () => {
         <div className="furnitureInfo">
           <img className="furnitureImage" src={furnitures2} alt="" srcset="" />
           <div>
-            <p className="furnitureName">Royal Double Bed</p>
-            <p className="furniturePrice">$45.00</p>
+            <p className="furnitureName">Royal Air Bed</p>
+            <p className="furniturePrice">$85.00</p>
             <form onSubmit={handleSubmit} className="furnitureform">
               <button type="submit" className="furnitureButton">
                 -
@@ -67,12 +67,12 @@ const Furnitures = () => {
           </div>
           <div>
             <p className="discriptionName">Deposit</p>
-            <p className="mb-0">Rs 799</p>
+            <p className="mb-0">Rs 999</p>
             <p className="discriptionRefund">Fully refundable</p>
           </div>
           <div>
             <p className="discriptionName">Total</p>
-            <p>Rs 1499</p>
+            <p className="totalPrice">Rs 1699</p>
           </div>
         </div>
       </div>

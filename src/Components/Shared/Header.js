@@ -7,7 +7,7 @@ const Header = () => {
     <div>
       <Navbar className="mt-3 " expand="lg">
         <Container className="navbarContainer pb-3">
-          <Nav.Link className="h4 mb-0 text-dark me-2" href="#">
+          <Nav.Link className="mb-0 text-dark me-2 navHighLight" href="#">
             guarented
           </Nav.Link>
           <Navbar.Toggle aria-controls="navbarScroll" />
@@ -17,28 +17,16 @@ const Header = () => {
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
-              <Nav.Link
-                className="mx-2 text-dark blockquote mb-0"
-                href="#action1"
-              >
+              <Nav.Link className="mx-2 text-dark navRout mb-0" href="#action1">
                 Furniture
               </Nav.Link>
-              <Nav.Link
-                className="mx-2 text-dark blockquote mb-0"
-                href="#action2"
-              >
+              <Nav.Link className="mx-2 text-dark navRout mb-0" href="#action2">
                 Appliance
               </Nav.Link>
-              <Nav.Link
-                className="mx-2 text-dark blockquote mb-0"
-                href="#action2"
-              >
+              <Nav.Link className="mx-2 text-dark navRout mb-0" href="#action2">
                 Package
               </Nav.Link>
-              <Nav.Link
-                className="mx-2 text-dark blockquote mb-0"
-                href="#action2"
-              >
+              <Nav.Link className="mx-2 text-dark navRout mb-0" href="#action2">
                 FAQ
               </Nav.Link>
             </Nav>
@@ -54,12 +42,12 @@ const Header = () => {
               </form>
 
               <Nav.Link
-                className="text-dark me-2 ms-5 blockquote mb-0"
+                className="text-dark me-2 ms-5 navRout mb-0"
                 href="#link"
               >
                 Login
               </Nav.Link>
-              <Nav.Link className="text-dark blockquote mb-0" href="#link">
+              <Nav.Link className="navRout cartRoute mb-0" href="#link">
                 Cart
               </Nav.Link>
             </Nav>
